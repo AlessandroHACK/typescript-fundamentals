@@ -2,7 +2,7 @@ import './style.css'
 // Descomenta los módulos según los vayas usando en la guía
 // import { name, age, templateString } from './intro/01-types'
 // import { pokemons } from './intro/02-objects'
-import { fido } from './intro/03-classes'
+import { charmander } from './intro/03-classes'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div id="center">
@@ -17,7 +17,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <div style="text-align: left; max-width: 600px; width: 100%; margin: 0 auto; padding: 0 20px;">
       <h2>Resultado de la Ejecución:</h2>
       <pre style="background: var(--code-bg); padding: 16px; border-radius: 8px; color: var(--text-h); overflow-x: auto;">
-${JSON.stringify(fido, null, 2) || '// No hay datos retornados'}
+${JSON.stringify(charmander) || '// No hay datos retornados'}
       </pre>
     </div>
   </div>
