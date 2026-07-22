@@ -2,8 +2,8 @@ import './style.css'
 // Descomenta los módulos según los vayas usando en la guía
 // import { name, age, templateString } from './intro/01-types'
 // import { pokemons } from './intro/02-objects'
-import { charmander } from './intro/03-classes'
-
+//import { charmander } from './intro/03-classes'
+import { charmander } from './intro/04-injection'
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div id="center">
     <div class="hero">
@@ -42,6 +42,10 @@ ${JSON.stringify(charmander) || '// No hay datos retornados'}
         <li>
           <strong>03. Clases </strong> 
           <span>Instanciación, propiedades privadas y constructores.</span>
+        </li>
+                <li>
+          <strong>04.  Inyección de dependencias</strong> 
+          <span></span>
         </li>
       </ul>
     </div>
